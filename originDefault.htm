@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Coming Soon</title>
+  <!-- Blinking text using JavaScript -->
+<script type="text/javascript" language="javascript"><!--
+    function blinkText()
+    {
+        document.getElementById('blinktext').style.visibility = 'visible';
+        setTimeout("hideText()", 700);
+    }
+    function hideText()
+    {
+        document.getElementById('blinktext').style.visibility = 'hidden';
+        setTimeout("blinkText()", 300);
+    }
+//--></script>
+
+<style type="text/css">
+	body{
+		color:#5a1f63; 
+		font-family:Arial, Helvetica, sans-serif;
+		background:#e27fff;
+		margin:20px 0 0 0;
+	}
+	
+	p.text{
+		width:980px; 
+		text-align:center; 
+		font-weight:bold; 
+		font-size:18px; 
+		margin:10px 0 0 0;
+	}
+	
+	a{
+	outline:none;
+	border:0;
+	}
+	
+	img{
+	border:0;
+	}
+	
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30555318-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body onload="javascript:blinkText();">
+	       <p class="text"><a href="http://weboriginate.com/" target="_blank"><img src="http://www.webadobe.com/images/logo.jpg"  /></a></p>
+
+    <div id="blinktext" style="visibility:hidden;">
+        <p class="text">Coming Soon</p>
+    </div>
+
+</body>
+</html>
+
